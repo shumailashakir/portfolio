@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineMenu,AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react';
-
+import Image from 'next/image';
 const Navbar = () => {
   const [isMenuOpen ,setIsMenuOpen] = useState(false)
 
@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="container pt-8">
       <div className="flex justify-between items-center">
         <div className="flex items-center ml-8">
-          <img src="/shumaila.png" alt="Logo" width="50" height="50" className="mr-2" />
+          <Image src="/shumaila.png" alt="Logo" width="50" height="50" className="mr-2" />
           <span className="text-xl font-medium text-white" data-aos="zoom-in">Shumaila Shakir</span>
         </div>
         <ul data-aos="zoom-in" className="gap-20 lg:gap-16 hidden md:flex mr-40">

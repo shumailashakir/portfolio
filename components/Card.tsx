@@ -35,4 +35,4 @@ const Card: React.FC<proposType> = ({ title, desc, img, tags }) => {
   );
 };
 
-export default Card;
+export default Card

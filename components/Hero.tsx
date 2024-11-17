@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="hidden lg:block"></div>
         <div className='flex flex-col items-center justify-center text-center lg:text-left'>
           <div className='text-[60px] sm:text-[60px] font-bold leading-tight mt-8'>
-            <p className='ml-14'  data-aos="zoom-in" >I'm Shumaila!</p>
+            <p className='ml-14'  data-aos="zoom-in" >I&apos;m Shumaila!</p>
             <p  data-aos="zoom-in"className='text-cyan-700'>Frontend developer</p>
           </div>
 
@@ -36,4 +36,4 @@ const Hero = () => {
   );
 }
 
-export default Hero;
+export default Hero
